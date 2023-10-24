@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module"  src="main.js"></script>
+    <link rel="stylesheet" href="playlist.css">
+
+</head>
+<body>
+    
+
+    <my-header></my-header>
+    
+    <center><h1>About</h1>
+        <div id="player" class="rounded">
+            <audio controls muted controlslist="nodownload" id="audioPlayer" id="audio" tabindex="0" type="audio/mepg">
+            Sorry, your browser doesn't support html5!
+        
+        </audio>
+        </div>
+          
+        
+            <ul id="playlist" class="rounded">
+              <li class="current-song"><a href="/img/ALLI ESTAREMOS.mp3">Un amor sin final.mp4</a></li>
+              <li><a href="/img/Asanblea.mp3">Te ves en el nuevo mundo.mp3</a></li>
+              <li><a href="/img/PUEDES.mp4">Si tienes fe.mp3</a></li>
+              
+        
+          </ul>
+          
+          <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+          <script src="playlist.js"></script>
+          <script>
+              // loads the audio player
+              audioPlayer();
+          </script>
+
+
+    mis referencias
+     <my-footer></my-footer>
+
+</body>
+</html>
