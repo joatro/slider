@@ -1,5 +1,5 @@
 #playlist, #player {
-    width: 90%; /* Ancho de todo el contenedor */
+    width: 40%; /* Ancho de todo el contenedor */
     padding: 20px;
     margin: 0 auto;
     display: block;
@@ -55,7 +55,7 @@
     }
     #playlist .active a:before {
     content: "\25B6";
-    color: #a5ff8a; /* Color del icono Play */
+    color: #ffffff; /* Color del icono Play */
     font-style: normal;
     padding-right: 8px;
     }
